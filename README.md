@@ -12,3 +12,7 @@ makemigrations vs migrate
 #### flow
 
 request from browser => urls => views => serializers => model => database
+
+#### implement topics
+
+        https://docs.djangoproject.com/en/3.1/topics/db/
