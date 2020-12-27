@@ -1,4 +1,5 @@
 #### foreign key example: link two tables
+#### this is example for manytoone relationship too
 
 
 #### 1. create root project
@@ -145,19 +146,32 @@
 
 #### testing 
 
-        get : localhost:8000/albums
-        get : localhost:8000/musicians
+        1. create two musicians from admin UI
+        2. create an album from admin UI
+        3. get : localhost:8000/albums
+        4. get : localhost:8000/musicians
+
+        
 
 #### creating albums : postman
 
         request type : post
         localhost:8000/albumcreate/ # follow urls.py pattern, slash also important
         payload : make sure artist table has record with ID : 2
+        same artist(musician id 2) has two albums "highway" and 'ranjhana'
         {
-            "id": 1,
             "name": "highway",
             "release_date": "2020-12-01",
             "num_stars": 6,
             "artist": 2 
         }
-                
+         
+        post : localhost:8000/albumcreate/
+        payload : 
+        {
+            "name": "ranjhana",
+            "release_date": "2020-12-01",
+            "num_stars": 6,
+            "artist": 2
+        }
+        
