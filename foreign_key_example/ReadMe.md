@@ -1,4 +1,6 @@
 #### foreign key example: link two tables
+##### single artist : multiple album
+
 #### this is example for manytoone relationship too
 
 
