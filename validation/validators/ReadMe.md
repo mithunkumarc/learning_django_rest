@@ -1,10 +1,8 @@
 #### validators are reusable functions , can be used to validate field inside serializers.py file
 
-#### steps
+#### steps : follow : https://github.com/mithunkumarc/learning_django_rest/tree/main/validation/fieldvalidationexample
 
-
-
-#### school/serialzers.py
+#### modify as below in school/serialzers.py
 
         from rest_framework import serializers
         from .models import Student
