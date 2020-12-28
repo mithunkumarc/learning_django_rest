@@ -54,7 +54,7 @@
         # Register your models here.
         @admin.register(Student)
         class StudentAdmin(admin.ModelAdmin):
-          list_disply = ['id', 'name', 'roll', 'city']
+          list_display = ['id', 'name', 'roll', 'city']
 
 #### create student records
 
