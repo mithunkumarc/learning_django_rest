@@ -1,4 +1,4 @@
-#### readonly fields : use admin UI : if you try to give new value, no error but values cannot be changed
+#### readonly fields : use postman : if you try to give new value, no error but values cannot be changed
 
 #### root project / school app / serializers.py
 
