@@ -1,4 +1,4 @@
-#### validator function used to validate field and reusable
+#### validator function used to validate field and reusable : test in postman
 
 
         from rest_framework import serializers
