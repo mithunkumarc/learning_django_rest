@@ -1,5 +1,9 @@
 #### credits : https://dev.to/balt1794/django-rest-api-crud-tutorial-2894
 
+        request.body vs request.data
+        request.body : gives json data 
+        request.data : gives serialized data (json converted to python object)
+
 #### creating root project
 
         django-admin startproject eventmgmt
