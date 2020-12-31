@@ -1,4 +1,4 @@
-DestroyAPIView : delete single record
+# DestroyAPIView : delete single record : folder was supposed tobe destroy_api_view
 
 #### sample : in your app : school/views.py
 
