@@ -7,6 +7,14 @@ you can customize to different string :
       
 rootproject/settings.py
 
+
+      INSTALLED_APPS = [
+          ...
+          'rest_framework',
+          'school',
+          'django_filters',
+      ]
+
       REST_FRAMEWORK = {
           'SEARCH_PARAM'='q',
           'DEFAULT_FILTER_BACKENDS':[
