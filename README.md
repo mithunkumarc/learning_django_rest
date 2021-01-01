@@ -1,5 +1,15 @@
 # learning_django_rest
 
+#### project files checklist
+
+        views.py                : handle requests
+        serializers.py          : serializers here
+        models.py               : create models here
+        admin.py                : register model here
+        database migrations     : run db schema
+        rootproject/settings.py : install your app and rest_framework here
+        urls.py                 : configure urls here
+
 #### makemigrations vs migrate
 
         makemigrations : generate sql code/schema
@@ -21,6 +31,10 @@
 3. views take help of serializers to convert json to python object viceversa.
 4. models retrive/read and push python object to database.
 
+
+#### install django filter
+
+        pip install django-filter
 
 #### implement topics
 
