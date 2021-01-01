@@ -17,6 +17,7 @@
           ...
             'rest_framework',
             'school',
+	    'django_filters',
         ]
 
 		REST_FRAMEWORK = {
