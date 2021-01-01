@@ -14,6 +14,8 @@ search filter : wildcards
   
 3. full text search : not supported in post grey?
 
-        search_fields = ['@name']
+        search_fields = ['@name']  : need to implement 
   
 4. Regex search : $ :  need to explore  
+
+        need to implement
