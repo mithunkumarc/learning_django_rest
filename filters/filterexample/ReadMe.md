@@ -1,5 +1,7 @@
 ####  django_filter example : using query parameters
 
+#### to use admin UI filter : after completing all steps logout admin : http://localhost:8000/studentapi/
+
 #### dependencies : pip install django_filter
 
 #### create root project
