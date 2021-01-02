@@ -35,6 +35,11 @@
 #### install django filter
 
         pip install django-filter
+        
+#### pending 
+
+        authentication and pagination
+        https://www.youtube.com/watch?v=qXXC6ocTC80&list=PLbGui_ZYuhijTKyrlu-0g5GcP9nUp_HlN
 
 #### implement topics
 
