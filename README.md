@@ -46,3 +46,8 @@
         https://docs.djangoproject.com/en/3.1/topics/db/
         https://docs.djangoproject.com/en/3.1/topics/
         https://bezkoder.com/django-rest-api/
+
+todo
+
+        https://github.com/ArtOfEngineer/DjangoReactJs
+        https://github.com/ArtOfEngineer/PythonDjangoAngular10
