@@ -51,3 +51,4 @@ todo
 
         https://github.com/ArtOfEngineer/DjangoReactJs
         https://github.com/ArtOfEngineer/PythonDjangoAngular10
+        https://github.com/justdjango
